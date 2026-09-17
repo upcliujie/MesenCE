@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Mesen
+Name[zh]=Mesen模拟器
+Name[zh_CN]=Mesen模拟器
+GenericName=Multi-system Emulator
+GenericName[zh]=多系统游戏机模拟器
+GenericName[zh_CN]=多系统游戏机模拟器
+Comment=Play games for classic video game systems
+Comment[zh]=运行经典游戏机游戏
+Comment[zh_CN]=运行经典游戏机游戏
+Exec=mesen-qt %f
+Icon=Mesen
+Terminal=false
+Categories=Game;Emulator;
+Keywords=emulator;NES;SNES;Game Boy;GBA;PC Engine;
+Keywords[zh]=模拟器;红白机;超级任天堂;掌上游戏机;GBA;PC Engine;
+Keywords[zh_CN]=模拟器;红白机;超级任天堂;掌上游戏机;GBA;PC Engine;
+StartupNotify=true

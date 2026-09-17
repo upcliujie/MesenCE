@@ -1,0 +1,85 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Mesen
+Source: https://github.com/upcliujie/MesenCE
+
+Files: *
+Copyright: 2014-2026 Sour
+           2026 contributors
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in /usr/share/common-licenses/GPL-3.
+
+Files: Lua/*
+Copyright: 1994-2025 Lua.org, PUC-Rio
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+Files: Linux/libevdev/*
+Copyright: 2013 Red Hat, Inc.
+License: X11
+ Permission to use, copy, modify, distribute, and sell this software and its
+ documentation for any purpose is hereby granted without fee, provided that
+ the copyright and permission notices are retained. The copyright holders
+ make no representations about suitability and provide the software "as is"
+ without express or implied warranty.
+
+Files: SevenZip/*
+Copyright: Igor Pavlov
+License: public-domain
+ These files have been placed in the public domain by their author.
+
+Files: Utilities/Audio/ymfm/*
+Copyright: 2021 Aaron Giles
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the copyright notice, conditions
+ and disclaimer are retained, binary distributions reproduce them, and the
+ copyright holder's name is not used to endorse derived products.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED. IN NO EVENT SHALL THE
+ COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DAMAGES ARISING FROM USE
+ OF THIS SOFTWARE.
+
+Files: Utilities/magic_enum.hpp
+Copyright: 2019-2022 Daniil Goncharov <neargye@gmail.com>
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, subject to retaining this notice.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+Files: Utilities/kissfft.h
+Copyright: 2003-2010 Mark Borgerding
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the copyright notice, conditions
+ and disclaimer are retained, binary distributions reproduce them, and the
+ copyright holder's name is not used to endorse derived products.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED.
