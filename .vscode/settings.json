@@ -1,0 +1,12 @@
+{
+    "C_Cpp.clang_format_style": "file",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    // clangd need libstdc++-14-dev installed
+    "clangd.arguments": [
+        "--compile-commands-dir=build",
+        "--header-insertion=never",
+        "--background-index",
+        "--clang-tidy=false"
+    ]
+}

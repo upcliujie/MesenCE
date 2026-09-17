@@ -1,0 +1,26 @@
+{
+    // See https://go.microsoft.com/fwlink/?linkid=830387
+    // for the documentation about the launch.json format
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mesen-qt",   // please replace "name" with your target name
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/mesen-qt",
+            "args": [],
+            "cwd": "${workspaceFolder}/build",
+            "env": {
+                "XDG_SESSION_TYPE": "wayland",
+                "QT_QPA_PLATFORM": "wayland",
+                "QT_QPA_PLATFORMTHEME": "ukui",
+                "WAYLAND_DEBUG": "0",
+                "DISPLAY": ":0"
+            },
+            "preLaunchTask": "Build",
+            "preRunCommands": [
+                "command script import ${workspaceFolder}/.vscode/all.py"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+Source: mesen
+Section: games
+Priority: optional
+Maintainer: Jie Liu <liujie01@kylinos.cn>
+Build-Depends:
+ cmake,
+ debhelper-compat (= 13),
+ libsdl2-dev,
+ pkg-config,
+ qtbase5-dev,
+Standards-Version: 4.7.2
+Homepage: https://github.com/upcliujie/MesenCE
+Rules-Requires-Root: no
+
+Package: mesen
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: multi-system video game console emulator
+ Mesen is an emulator supporting NES, SNES, Game Boy, Game Boy Color,
+ Game Boy Advance, PC Engine, Sega Master System, Game Gear and other
+ classic video game systems.

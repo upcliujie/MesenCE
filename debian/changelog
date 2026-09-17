@@ -1,0 +1,5 @@
+mesen (0.1.0-1) unstable; urgency=medium
+
+  * Initial Debian release of the Qt frontend.
+
+ -- Jie Liu <liujie01@kylinos.cn>  Thu, 17 Sep 2026 10:00:00 +0800
