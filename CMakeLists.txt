@@ -14,8 +14,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(Qt5 REQUIRED COMPONENTS Widgets)
-find_package(SDL2 REQUIRED)
-find_package(X11 REQUIRED)
 
 file(GLOB_RECURSE MESEN_CORE_SOURCES CONFIGURE_DEPENDS
     "Core/*.cpp"
@@ -42,11 +40,6 @@ target_include_directories(mesen_core PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/Linux
     ${CMAKE_CURRENT_SOURCE_DIR}/Sdl
     ${CMAKE_CURRENT_SOURCE_DIR}/Utilities
-)
-
-target_link_libraries(mesen_core PRIVATE
-    SDL2::SDL2
-    X11::X11
 )
 
 install(FILES Linux/appimage/Mesen.48x48.png

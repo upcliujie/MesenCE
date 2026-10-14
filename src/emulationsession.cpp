@@ -43,7 +43,7 @@ EmulationSession::EmulationSession(OpenGLVideoWidget &videoWidget)
     loadFrontendSettings();
     _emulator->Initialize(true);
     _renderingDevice = std::make_unique<QtRenderingDevice>(*_emulator, videoWidget);
-    _soundManager = std::make_unique<SdlSoundManager>(_emulator.get());
+    _soundManager.reset(SdlSoundManager::Create(_emulator.get()));
 }
 
 EmulationSession::~EmulationSession()
@@ -90,6 +90,11 @@ bool EmulationSession::isRunning() const
 bool EmulationSession::isPaused() const
 {
     return _emulator->IsPaused();
+}
+
+uint32_t EmulationSession::frameCount() const
+{
+    return _emulator->GetFrameCount();
 }
 
 bool EmulationSession::isShortcutAllowed(EmulatorShortcut shortcut, uint32_t parameter) const

@@ -193,3 +193,5 @@ TestHelper/*
 UI/Dependencies.zip
 
 obj-*/
+
+.cache/

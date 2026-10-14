@@ -39,7 +39,6 @@ target_link_libraries(${PROJECT_NAME}
     mesen_core
 
     Qt5::Widgets
-    SDL2::SDL2
 )
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE

@@ -60,6 +60,7 @@ public:
     bool loadRom(const QString &filePath, QString &errorMessage);
     bool isRunning() const;
     bool isPaused() const;
+    uint32_t frameCount() const;
     bool isShortcutAllowed(EmulatorShortcut shortcut, uint32_t parameter = 0) const;
 
     void saveState(uint32_t slot);

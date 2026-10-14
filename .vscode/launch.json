@@ -4,10 +4,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "mesen-qt",   // please replace "name" with your target name
+            "name": "mesen",   // please replace "name" with your target name
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/mesen-qt",
+            "program": "${workspaceFolder}/build/mesen",
             "args": [],
             "cwd": "${workspaceFolder}/build",
             "env": {
